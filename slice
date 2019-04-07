@@ -1,0 +1,11 @@
+some_list = ['1', '2', '3', '2', '2']
+
+#1
+for i in range(len(some_list)):
+    if '2' in some_list:
+        some_list.remove('2')
+print(some_list)
+
+#2
+some_list = ['1', '2', '3', '2', '2']
+print(some_list[:3:2])
